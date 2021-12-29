@@ -1,0 +1,205 @@
+.pokemon-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  background-color: rgb(242, 242, 242);
+  height: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.pokemon-container img {
+  width: 20em;
+}
+
+.pokemon-container button {
+  width: 10em;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.no-style {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+
+.no-style:hover {
+  transition: 0.3s all ease;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.border-black-1 {
+  border: 1px solid black;
+}
+.border-black-2 {
+  border: 2px solid black;
+}
+.border-black-3 {
+  border: 3px solid black;
+}
+.border-black-4 {
+  border: 4px solid black;
+}
+
+/*  Buttons Styling */
+
+button {
+  border: none;
+
+  width: auto;
+  cursor: pointer;
+}
+
+.btn-all {
+  margin-left: 8px;
+}
+
+button:hover {
+  color: yellow;
+  transition: all 0.3s ease;
+}
+
+.btn-Grass {
+  background-color: rgb(155, 204, 80);
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-Poison {
+  background-color: rgb(185, 127, 201);
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-Fire {
+  background-color: rgb(253, 125, 36);
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-Water {
+  background-color: rgb(69, 146, 196);
+  color: white;
+  border-radius: 5px;
+}
+.btn-Bug {
+  background-color: rgb(114, 159, 63);
+  color: white;
+  border-radius: 5px;
+}
+.btn-Normal {
+  background-color: rgb(164, 172, 175);
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-Electric {
+  background-color: rgb(238, 213, 53);
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-Fairy {
+  background-color: rgb(253, 185, 233);
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-Ice {
+  background-color: rgb(81, 196, 231);
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-Fighting {
+  background-color: rgb(214, 104, 36);
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-Ground {
+  background-color: rgb(171, 152, 66);
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-Flying {
+  background-color: rgb(61, 199, 239);
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-Rock {
+  background-color: rgb(164, 141, 34);
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-Ghost {
+  background-color: rgb(123, 98, 163);
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-Dark {
+  background-color: rgb(112, 112, 112);
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-Steel {
+  background-color: rgb(158, 183, 184);
+  color: black;
+  border-radius: 5px;
+}

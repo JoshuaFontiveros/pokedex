@@ -1,0 +1,163 @@
+/* // Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 576px) {
+  .nav-types {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  .nav-types button {
+    margin: 5px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .nav-types {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .nav-types button {
+    margin: 5px;
+  }
+
+  .nav-types {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .nav-types button {
+    margin: 5px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .nav-types button {
+    margin: 5px;
+  }
+  .d-flex {
+    display: flex;
+  }
+
+  .justify-content-center {
+    justify-content: center;
+  }
+
+  .flex-column {
+    flex-direction: column;
+  }
+
+  /*  Buttons Styling */
+
+  button {
+    border: none;
+
+    width: auto;
+    cursor: pointer;
+  }
+
+  button:hover {
+    color: yellow;
+    transition: all 0.3s ease;
+  }
+
+  .btn-nav {
+    margin-left: 5px;
+  }
+  .btn-Grass {
+    background-color: rgb(155, 204, 80);
+    color: black;
+    border-radius: 5px;
+  }
+
+  .btn-Poison {
+    background-color: rgb(185, 127, 201);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .btn-Fire {
+    background-color: rgb(253, 125, 36);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .btn-Water {
+    background-color: rgb(69, 146, 196);
+    color: white;
+    border-radius: 5px;
+  }
+  .btn-Bug {
+    background-color: rgb(114, 159, 63);
+    color: white;
+    border-radius: 5px;
+  }
+  .btn-Normal {
+    background-color: rgb(164, 172, 175);
+    color: black;
+    border-radius: 5px;
+  }
+
+  .btn-Electric {
+    background-color: rgb(238, 213, 53);
+    color: black;
+    border-radius: 5px;
+  }
+
+  .btn-Fairy {
+    background-color: rgb(253, 185, 233);
+    color: black;
+    border-radius: 5px;
+  }
+
+  .btn-Ice {
+    background-color: rgb(81, 196, 231);
+    color: black;
+    border-radius: 5px;
+  }
+
+  .btn-Fighting {
+    background-color: rgb(214, 104, 36);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .btn-Ground {
+    background-color: rgb(171, 152, 66);
+    color: black;
+    border-radius: 5px;
+  }
+
+  .btn-Flying {
+    background-color: rgb(61, 199, 239);
+    color: black;
+    border-radius: 5px;
+  }
+
+  .btn-Rock {
+    background-color: rgb(164, 141, 34);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .btn-Ghost {
+    background-color: rgb(123, 98, 163);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .btn-Dark {
+    background-color: rgb(112, 112, 112);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .btn-Steel {
+    background-color: rgb(158, 183, 184);
+    color: black;
+    border-radius: 5px;
+  }
+
+  /*  End of Button styling*/
+}

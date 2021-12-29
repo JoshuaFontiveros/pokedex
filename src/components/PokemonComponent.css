@@ -1,0 +1,19 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.image-container img {
+  width: 30%;
+}
+
+.types-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.types-container button {
+  margin-left: 10px;
+}
