@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Router as BrowserRouter} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Home from "./components/Home";
 import Header from "./components/Header";
@@ -13,17 +13,11 @@ const App = (props) => {
     <>
       <link rel="icon" href="./public/pokeball.png" />
       <Header />
-      <BrowserRouter>
-        <Route path="/Home">
-          <Home />
-        </Route>
-        <Route path="/types/:type">
-          <PokemonDisplay Pokemon={pokemons} />
-        </Route>
-        <Route path="/:pokemon">
-          <PokemonComponent Pokemon={pokemons} />
-        </Route>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/Home" element={<Home/>}/>
+        <Route path="/types/:type" element={<PokemonDisplay Pokemon={pokemons} />} />
+        <Route path="/:pokemon" element={<PokemonComponent Pokemon={pokemons} />}/>
+      </Routes>
     </>
   );
 };
